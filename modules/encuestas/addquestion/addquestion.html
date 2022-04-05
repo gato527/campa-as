@@ -1,0 +1,70 @@
+<div class="col-md-12  module-container paddiing-16">
+
+	<div class="row">
+		
+		<!-- pregunta -->
+		<div class="col-12">
+			<div class="page">
+				<button data-view="template" type="button" class="btn btn-primary btn-use" on-click="onAddQuestion">Usar</button>
+				
+				<p>Lista con selección única </p>
+				<br/><br/>
+
+				<h5>¿Que es un año biciesto?</h5>
+				<br>
+				<form>
+					<div class="form-group">
+						<div class="radio ">
+							<label><input type="radio" name="asfdasfd"> un año muy largo</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="radio ">
+							<label><input type="radio" name="asfdasfd"> un año muy largo</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="radio ">
+							<label><input type="radio" name="asfdasfd"> un año muy largo</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="radio ">
+							<label><input type="radio" name="asfdasfd"> un año muy largo</label>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+	</div>
+
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" var="addQuestionModal" tabindex="-1" role="dialog" aria-labelledby="addQuestionModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addQuestionModalLabel">Agregar Pregunta</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<p>Haga doble click en los textos para editar.</p>
+         <div var="containerQuestion"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" on-click="addQuestionDesigner" >Agregar</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+
+  <!-- PROPIETARIO -->
+  <div class="col-md-12 subtitle">
+
+        <form class="form-inline"  action="#">
+        <div class="form-group">
+            <input var="code" type="text" class="form-control" placeholder="Buscar cliente">
+        </div>
+
+        <div class="form-group">
+          <div class="input-group">
+           <select class="form-control" var="field">
+            <option  value="codigo">Código</option>
+            <option  value="nombre">Nombre</option>
+            <option  value="nit">NIT</option>
+           </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+            <div class="btn btn-success" on-click="refresh"> Buscar <i class="material-icons"> search </i></div> 
+        </div>
+      </form>
+
+     
+      
+      <div var="viewMessage"></div>
+  </div>
+
+
+
+  <div class="col-md-5 " >
+    <br>
+    <br>
+    <div var="listClients"></div>
+  </div>
+
+
+  <div var="operationsContainer" ></div>
+
+
+
+
+

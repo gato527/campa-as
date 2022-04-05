@@ -1,0 +1,90 @@
+.container-box #box-info {
+	padding: 30px;
+}
+
+.container-box {
+	padding: 10px;
+}
+
+#table td {
+    white-space: pre-line;
+}
+
+#tablaResponsive {
+	width: 100%;
+}
+
+.dropdown-filter-dropdown {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+th {
+    position: relative;
+}
+
+span.glyphicon.glyphicon-arrow-down.dropdown-filter-icon {
+    border: 0;
+    font-size: 8px;
+        color: transparent;
+}
+
+.fixed-table-body {
+    height: 450px;
+}
+
+
+i.arrow-down {
+    margin-left: -4px;
+    margin-top: 26px;
+}
+
+.dropdown-filter-item {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.keep-open {
+    display: inline-block;
+}
+
+.arrow-down {
+    border-width: 0 1px 1px 0;
+    padding: 2px;
+}
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.wait {
+   -webkit-animation: flickerAnimation 3.5s infinite;
+   -moz-animation: flickerAnimation 3.5s infinite;
+   -o-animation: flickerAnimation 3.5s infinite;
+    animation: flickerAnimation 3.5s infinite;
+    z-index: 2000;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 200px;
+}

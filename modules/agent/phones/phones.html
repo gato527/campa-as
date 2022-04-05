@@ -1,0 +1,51 @@
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+
+    <h3 class="panel-title  p-relative"><i class="material-icons">settings_phone</i>
+      Teléfonos  <button on-click="openSave" var="addPhone" class="btn btn-default btn-sm"><i class="material-icons">add</i>Agregar</button> </div></h3>
+
+<!--   <div class="panel-body">
+    <p class="explain-text">Aqui puedes consultar, agregar y clasificar los teléfonos de contacto de los clientes.</p>
+  </div> -->
+
+  <!-- List group -->
+  <div class="list-group" var="phonesList">
+  </div>
+
+
+</div>
+
+<div  var="modalPhones" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"> <i class="material-icons">settings_phone</i>Agregar teléfono</h4>
+      </div>
+      <div class="modal-body">
+
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Teléfono</label>
+            <div class="col-sm-10">
+              <input var="phone" type="text" class="form-control" maxlength="20" placeholder="Teléfono">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Observación</label>
+            <div class="col-sm-10">
+              <input var="observation" type="text" class="form-control" maxlength="280"  placeholder="Observación">
+            </div>
+          </div>
+          
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" on-click="savePhone" data-dismiss="modal">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>

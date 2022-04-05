@@ -1,0 +1,30 @@
+h4 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    color: #444;
+}
+
+p {
+    font-size: 13px;
+    color: #888;
+    font-weight: 100;
+}
+
+.form-settings {
+	width: 320px;
+    margin-bottom: 60px;
+
+}
+
+.btn .fugue {
+    margin-right: 8px;
+    top: 2px;
+    position: relative;
+}
+
+small.pull-right {
+    font-style: italic;
+    color: #888;
+    padding-top: 4px;
+    font-size: 10px;
+}

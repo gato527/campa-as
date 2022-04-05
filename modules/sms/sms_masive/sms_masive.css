@@ -1,0 +1,101 @@
+.bar {
+	height: 4px;
+	background-color: red;
+}
+
+.btn-file {
+    width: fit-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    background: #4CAF50;
+    color: #fff;
+}
+
+.btn-file:before {
+ content: " ";
+ height: 20px;
+ width: 20px;
+ background-color: red;
+}
+
+input#file-import {
+	display: none;
+}
+
+.img-csv{
+	width: 180px;
+}
+
+form.file-upload {
+	/*text-align: center;*/
+	/*margin-bottom: 16px;*/
+}
+
+.progress {
+    border-radius: 0;
+    height: 12px;
+    width: 400px;
+	min-width: 400px;
+	display: inline-block;
+    margin: 0;
+}
+
+.progress-bar {
+    line-height: 12px;
+}
+
+.fixed-table-toolbar .export{
+ display: none;
+}
+
+.result {
+	margin: 0;
+}
+
+.bubble {
+	padding: 30px;
+	background: #EEEEEE;
+	border-radius: 8px;
+	 color: #808080;
+	 display: none;
+         box-shadow: 0px 2px 15px #0004;
+    margin: 60px;
+}
+
+
+.bubble h1 {
+    color: #808080;
+}
+
+
+.bubble h2 {
+    color: #808080;
+}
+
+.hide {
+	display: none;
+}
+
+.bubble::after {
+    content: '';
+    width: 0;
+    height: 0;
+    /* background: red; */
+    position: absolute;
+    left: -46px;
+    top: 61px;
+    border: 30px solid #ededed;
+    border-color: transparent #ededed transparent transparent;
+}
+
+.fixed-table-body {
+    max-height: 300px;
+}
+
+div#message.error {
+    color: #FFF;
+    background: #F44336;
+    padding: 16px;
+    border-radius: 4px;
+}

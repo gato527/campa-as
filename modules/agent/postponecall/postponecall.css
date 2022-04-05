@@ -1,0 +1,8 @@
+span.badge {
+    top: -38px;
+    position: relative;
+}
+
+#time {
+	opacity: 0;
+}

@@ -1,0 +1,8 @@
+.modal-body {
+    max-height: 450px;
+    overflow: auto;
+}
+
+p {
+    word-break: break-all;
+}

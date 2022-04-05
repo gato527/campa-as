@@ -1,0 +1,26 @@
+#display-console {
+	height: 90%;
+	font-size: large;
+    overflow: auto;
+	
+}
+
+.col-md-8.col-md-offset-2.content-console {
+    height: 90%;
+    font-size: large;
+}
+
+.panel.panel-default {
+    height: 100%;
+        position: relative;
+}
+
+.panel-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#input-command {
+font-size: large;
+	
+}

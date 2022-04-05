@@ -1,0 +1,136 @@
+
+<!-- Manager List -->
+<div class="col-md-3">
+
+	<!-- Search history -->
+	<label class="subtitle">Consultar histórico</label>
+
+	<div class="date-search">
+		<div class="input-group">
+		  <input var="inputFecha" type="date" class="form-control" on-change="onchangeDay" >
+		  <span class="input-group-addon" >
+		  	<i class="material-icons"> calendar_today </i>
+		  </span>
+		</div>
+
+	</div>
+
+	<br>
+	<br>
+
+
+	<label>Todos los agentes</label>
+
+	<ul class="manager-list" var="managetList"></ul>
+
+</div>
+
+<!-- Manager Detail -->
+<div class="col-md-9">
+
+
+	<div class="panel-details" >
+
+		<div class="row" var="panelDetails">
+			<!-- column 1 -->
+			<div class="col-md-3">
+				<div class="image-profile">
+					<img var="photo" src="img/unknown.png" class="photo" onError='ImgErrorVideo(this);'>
+					<p var="name">Edwin Ramiro Ospina Ruiz</p>
+					<p var="rol">Agente</p>
+				</div>
+			</div>
+
+
+			<!-- column 2 -->
+			<div class="col-md-5" >
+
+				<label class="subtitle">Clientes Asignados</label>
+				<ul var="listCausales" class="list-caausales"></ul>
+
+				<br>
+
+				<label class="subtitle">Resumen de la Operación</label>
+				<ul var="listCausalesOpe" class="list-caausales"></ul>
+
+
+				<!-- indicators -->
+				<div class="indicator">
+					<h1 class="numb numb-large" var="totalInd"></h1>
+					<p>Porcentaje de avance</p>
+					<div class="float" var="porAvanceContainer"></div>
+				</div>
+
+				<div class="indicator">
+					<h1 class="numb numb-large" var="vPedidos">12<small>/8</small></h1>
+					<p>Pedidos realizados</p>
+					<div class="float float-mini" var="porPedidosContainer"></div>
+				</div>
+
+			</div>
+
+			<!-- column 3 -->
+			<div class="col-md-3 ">
+				<label class="subtitle">Actividad del Usuario</label>
+
+				<ul id="listActivityUser" class="list-caausales activities">
+
+					<li class="item-causal">
+						<span class="numb">07:22<small>am</small></span> Inicio de sesión
+					</li>
+					<li class="item-causal">
+						<span class="numb">07:45<small>am</small></span> Inactividad
+					</li>
+
+					<li class="item-causal">
+						<span class="numb">07:45<small>am</small></span> Inactividad
+					</li>
+
+					<li class="item-causal">
+						<span class="numb">07:45<small>am</small></span> Inactividad
+					</li>
+
+					<li class="item-causal">
+						<span class="numb">11:45<small>am</small></span> Inicio de sesión
+					</li>
+
+					<li class="item-causal">
+						<span class="numb">12:05<small>am</small></span> Inactividad
+					</li>
+
+					<li class="item-causal">
+						<span class="numb">02:22<small>pm</small></span> Inactividad
+					</li>
+					<li class="divider"></li>
+					<li class="item-causal">
+						<span class="numb">6<small>horas</small></span>
+					</li>
+					<li class="item-causal">
+						<span class="numb">30<small>min</small></span> Tiempo laborado
+					</li>
+					<li class="divider"></li>
+
+					<li class="item-causal">
+						<span class="numb">22<small>min</small></span> Tiempo inactivo
+					</li>
+
+				</ul>
+
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+
+
+
+
+
+			</div>
+		</div>
+
+
+	</div>
+
+</div>

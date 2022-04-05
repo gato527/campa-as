@@ -1,0 +1,53 @@
+.bar {
+	height: 4px;
+	background-color: red;
+}
+
+.btn-file {
+	width: 200px;
+	max-width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+
+.btn-file:before {
+ content: " ";
+ height: 20px;
+ width: 20px;
+ background-color: red;
+}
+
+input#fileInput {
+	display: none;
+}
+
+.img-csv{
+	width: 180px;
+}
+
+form.file-upload {
+	/*text-align: center;*/
+	/*margin-bottom: 16px;*/
+}
+
+.progress {
+    border-radius: 0;
+    height: 12px;
+    width: 400px;
+	min-width: 400px;
+	display: inline-block;
+    margin: 0;
+}
+
+.progress-bar {
+    line-height: 12px;
+}
+
+.fixed-table-toolbar .export{
+ display: none;
+}
+
+.result {
+	margin: 0;
+}

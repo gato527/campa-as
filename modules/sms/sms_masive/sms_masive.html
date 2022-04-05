@@ -1,0 +1,72 @@
+
+
+<h3></h3>
+<div class="row">
+	<div class="col-3">
+		<img src="img/sms-icon.png" class="col">
+	</div>
+
+
+
+	<div class="col-9">
+		<h1 var="subsidiaryName"></h1>
+
+		<div class="bubble col step step-1">
+			<h1>Hola! </h1><h2>Bienvenido al módulo de Sms Masivos</h2>
+
+			<br>
+			<h3>Máximo 100 mensajes por archivo.</h3>
+			<p>Esto es para evitar la perdida de información</p>
+			<br>
+			<p>Antes de iniciar descarga la plantilla de excel para llenar la información.</p>
+
+			<a  role="button" href="docs/plantilla-sms.csv" download class="btn btn-default">Descargar</a>
+			<button type="button" class="btn btn-primary" on-click="next">Continuar</button>
+		</div>
+
+		<div class="bubble col step step-2">
+			<h1>Carga el archivo de excel</h2>
+
+			<p>Seleciona el archivo con la información de los mensajes a enviar.</p>
+			<br>
+
+			<div class="form-group col-6">
+				<div class="btn btn-default btn-file" on-click="onSelectFile">
+					Seleccionar un archivo
+				</div>
+				<input type="file" name="file-import" id="file-import" accept=".csv" on-change="onChangeFile">
+			</div>
+			<br>
+
+			 	<div var="table">
+				</div>
+			<div var="message"></div>
+			<br>
+
+			<div var="options">
+				<button  type="button" class="btn btn-default"  on-click="back">Atrás</button>
+				<button type="button" class="btn btn-primary" var="btnSend"  on-click="importDebtors">Enviar Mensajes</button>
+			</div>
+			<button var="btnReset" type="button" class="btn btn-default"  on-click="resetForNewLoad">Cargar otro archivo</button>
+
+			<br>	
+			<br>	
+
+			<div var="containerMessage"></div>
+		</div>
+	</div>
+
+</div>
+
+<div class="table-responsive" var="tablaResponsive">
+	<table var="tableReport" data-sortable="false" data-heights="500"  ></table>
+	<br><br> 
+	<br><br> 
+
+</div>
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+
+.chat-container {
+    position: fixed;
+    width: 240px;
+    height: 400px;
+    background: #FFF;
+    box-shadow: 0 2px 5px #0004;
+    border-radius: 4px;
+    bottom: 76px;
+    right: 16px;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.chat-btn {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background: #FFF;
+    box-shadow: 0 2px 5px #0004;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chat-btn img {
+	width: 32px;
+}
+
+
+.chat-container:before {
+	content: '';
+    position: absolute;
+    width: 20px;
+    border: 12px solid;
+    border-color: #ccc transparent transparent transparent;
+    bottom: -23px;
+    right: 15px;
+}
+
+.chat-container:after {
+	content: '';
+    position: absolute;
+    width: 20px;
+    border: 10px solid;
+    border-color: white transparent transparent transparent;
+    bottom: -19px;
+    right: 16px;
+}
+
+.chat-close {
+    float: right;
+    cursor: pointer;
+}
+
+.chat-title {
+    border-bottom: 1px solid #ccc;
+    background: #595959;
+    color: #fcce00;
+}
+
+.chat-title span {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.chat-user {
+    padding: 4px 6px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.chat-user:hover {
+	background: #cccccc4a;
+}
+
+
+.chat-user span {
+	position: relative;
+    top: 6px;
+    color: #aaa;
+}
+
+#listUsers {
+    overflow: auto;
+    height: calc(100% - 48px);
+    padding: 0 0 0 8px;
+}
+
+.chat-content {
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+
+.chat-rol {
+    padding-left: 28px;
+    font-size: 12px;
+    color: #999;
+}
+
+.chat-badge {
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    right: -8px;
+    padding: 3px 4px;
+    color: #FFF;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+}
+
+
+.chat-user-badge {
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 4px;
+    padding: 0;
+    color: #FFF;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 13px;
+    display: none;
+}
+
+.chat-user-online {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    position: absolute;
+    top: 37px;
+    left: 13px;
+    border: 1px solid #888;
+    border-radius: 6px;
+}
+
+.chat-user-online.online {
+    background: #8BC34A;
+    border: 1px solid #4CAF50;
+}
+
+.chat-user-time {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 6px;
+    font-size: 12px;
+    font-weight: 100;
+}

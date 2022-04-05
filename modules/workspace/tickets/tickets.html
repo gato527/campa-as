@@ -1,0 +1,136 @@
+
+<div class="col-md-12">
+	
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalTickets">
+	  Crear
+	</button>
+
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModalTickets" tabindex="-1" role="dialog" aria-labelledby="myModalTicketsLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalTicketsLabel">Crear Ticket</h4>
+	      </div>
+	      <div class="modal-body">
+	        
+
+	      	<!-- new ticket form -->
+			<form class="form-horizontal">
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">Prioridad</label>
+			    <div class="col-sm-10">
+			      <select class="form-control" var="priority" >
+			      	<option value="0">Baja</option>
+			      	<option value="1">Media</option>
+			      	<option value="2">Alta</option>
+			      	<option value="3">Urgente</option>
+			      </select>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputPassword3" class="col-sm-2 control-label">Descripción</label>
+			    <div class="col-sm-10">
+			       <textarea class="form-control" rows="6" var="description">
+
+			       </textarea>
+			    </div>
+			  </div>
+			 
+			</form>
+
+
+
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+	        <button type="button" class="btn btn-primary" on-click="save">Guardar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+</div>
+
+
+<div class="col-md-12">
+		<div class="sticky taped" >
+			<p>
+				Aqui puedes dejarnos tus sugerencias 
+			</p>
+
+			<label>Att: -- Admon</label>
+		</div>
+
+
+
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <h4 class="panel-title">
+		        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          <span class="badge" var="count_3">0</span> Urgentes
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		      <div class="panel-body"  var="panel_3">
+		        
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingTwo">
+		      <h4 class="panel-title">
+		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          <span class="badge" var="count_2">0</span> Prioridad Alta
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+		      <div class="panel-body"  var="panel_2">
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingThree">
+		      <h4 class="panel-title">
+		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          <span class="badge" var="count_1">0</span> Prioridad Media 
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+		      <div class="panel-body" var="panel_1">
+		      </div>
+		    </div>
+		  </div>
+
+		    <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingThree">
+		      <h4 class="panel-title">
+		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+		          <span class="badge" var="count_0">0</span> Prioridad Baja
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+		      <div class="panel-body" var="panel_0">
+		      </div>
+		    </div>
+
+		</div>
+
+
+</div>
+
+

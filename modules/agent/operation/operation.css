@@ -1,0 +1,17 @@
+nav.navbar {
+	margin-bottom: 8px;
+}
+
+div#orders {
+    max-height: 600px;
+    height: 600px;
+}
+
+div#history {
+    max-height: 600px;
+    height: 600px;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 81.25%;
+}

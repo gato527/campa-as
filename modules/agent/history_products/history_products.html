@@ -1,0 +1,49 @@
+
+<div class="panel panel-default">
+<!-- Default panel contents -->
+<div class="panel-heading">
+  	<i class="material-icons"> schedule </i> Historial de pedidos
+</div>
+
+<!-- products list -->
+<div class="list-group"  var="listOrder" >
+
+</div>
+
+</div>
+
+<div class="panel panel-default">
+<!-- Default panel contents -->
+<div class="panel-heading p-relative">
+  	<i class="material-icons"> shopping_cart </i> Productos habituales del cliente
+</div>
+
+<!-- products list -->
+<div class="list-group" var="productsList">
+
+</div>
+
+</div>
+
+
+<div var="dialogHistory" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"><i class="material-icons"> schedule </i> Detalle del pedido</h4>
+      </div>
+      <div class="modal-body">
+
+      	<!-- products list -->
+		<div class="list-group" var="productsListHistory">
+
+		</div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

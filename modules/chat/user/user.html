@@ -1,0 +1,28 @@
+<div class="chat-container">
+
+	<div class="chat-title" on-click="onBack">
+		<span class="material-icons"> arrow_back </span> <span var="username"></span>
+	</div>
+
+
+	<div class="chat-list-users" var="listBubbles"></div>
+
+	<div class="chat-error" var="error">
+		Lo sentimos, el tamaño el archivo debe ser menor a 5mb.
+	</div>
+	<div class="chat-list-message" >
+		<input type="file" var="file" on-change="onSelectedFile">
+		<input type="text" var="message" on-keyup="onSaveMessageEnter" autocomplete="off">
+		<button type="button" class="btn btn-sm btn-light btn-attach-file" var="btnAttach" on-click="openFile"><span class="material-icons"> attach_file </span></button>
+		<button type="button" class="btn btn-sm btn-light btn-attach-file" var="btnCancelAttach"  on-click="cancelFile"><span class="material-icons"> close </span></button>
+		<button type="button" class="btn btn-sm btn-light btn-send-message" on-click="onSaveMessage"><span class="material-icons"> send </span></button>
+
+ 
+	</div>
+	
+</div>
+
+
+<div class="chat-btn">
+	<img src="img/chat.png">
+</div>

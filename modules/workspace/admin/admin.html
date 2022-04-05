@@ -1,0 +1,71 @@
+<!-- navbar -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <!-- <img src="img/sercodex.png"> -->
+        Call in Action
+        
+    </div>
+
+    <ul class="nav navbar-nav inline">
+        <li><a id="nav-toogle-menu" href="#"><span class="glyphicon glyphicon-align-justify"></span></a></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <div class="user-logo">
+                    <img id="img-perfil" src="img/unknown.png">
+                    <p></p> <span class="caret"></span>
+                </div> 
+                
+            </a>
+            <ul class="dropdown-menu">
+                <li id="perfil"><a href="#">Mi perfil</a></li>
+                <li role="separator" class="divider"></li>
+       			<li><a id="salir-session"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Salir </a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+
+<!-- main content -->
+<div class="main-content">
+
+    <!-- menu lateral -->
+    <div class="menu-slide no-padding">
+
+        <div class="image-logo" >
+            <img id="logo-company" src="img/logo-callinaction.png" alt="" class="img-responsive"  on-click='onClickLogo'>
+        </div>
+
+        <div class="box-search">
+            <div class="form-group has-feedback">
+                <label class="control-label sr-only" for="search">Hidden label</label>
+                <input type="text" class="form-control" id="search" aria-describedby="searchStatus" placeholder="Buscar...">
+                <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+                <span id="searchStatus" class="sr-only">(success)</span>
+            </div>
+        </div>
+        <div id="Navigation-menu" class="nav nav-pills nav-stacked scroll-menu"></div>
+    </div>
+
+    <!-- título -->
+    <h2 id="title-app"></h2>
+
+    <!-- contenido -->
+    <div class="content ">
+        <div id="content-admin" class="col-md-12"></div>
+        <div id="loader-content" class="col-md-12  content">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+<!-- chat -->
+<div var="chatContainer"></div>

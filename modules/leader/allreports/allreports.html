@@ -1,0 +1,42 @@
+<div class="row">
+	<div class="col-md-12">
+
+			    <label >Seleccione el tipo de reporte</label>
+
+
+		<form class="form-inline">
+		 
+			<div class="form-group">
+			    <select class="form-control" var="selectReport" on-change="onSelectReport" >
+			      <option value="">-- seleccione --</option>
+				  <option data-date="hide" value="getProducts">Exportar productos para inbox</option>
+			      <option data-date="hide" value="getclientOrders">Reporte de total de pedidos de clientes</option>
+			      <option data-date="hide" value="getclientErrorPhones">Reporte de telefonos fuera de servicio de clientes</option>
+			      <option data-date="hide" value="getclientPQRsPedido">Reporte de clientes PQR</option>
+			      <option data-date="hide" value="getclientPQRs">Reporte de clientes PEDIDO PQR</option>
+			      <option data-date="hide" value="getclientList">Lista de clientes</option>
+			      <option data-date="hide" value="getProductsOrders">Lista de total de productos pedidos</option>
+			      <option data-date="show" value="getProductsOrdersCity">Lista de total de productos pedidos por ciudad</option>
+
+			      <option data-date="hide" value="getclientListUpdate">Lista de clientes actualización de datos</option>
+			      <option data-date="hide" value="getAllClientOrders">Lista de todos clientes que tienen un pedido</option>
+			      <option data-date="show" value="getAllProductsOrders">Lista de todos los productos vendidos</option>
+			      <!-- <option data-date="show" value="getVendidos">REPORTE DE RUTAS</option> -->
+
+
+			    </select>
+			  </div>
+
+			<div class="form-group date">
+				<label>Desde</label>
+			 	<input type="date" var="initDate"  class="form-control " > 
+			</div>
+			<div class="form-group date">
+				<label>Hasta</label>
+			 	<input type="date" var="endDate"  class="form-control " > 
+			</div>
+			
+			<div class="btn btn-success" on-click="process">Descargar</div>
+		</form>
+	</div>
+</div>

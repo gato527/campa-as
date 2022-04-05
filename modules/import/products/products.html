@@ -1,0 +1,16 @@
+<div class="col-md-12">
+
+	<div class="box box-warning">
+		<div class="box-body">
+			<div var="btnFile" class="btn btn-default btn-file" on-click="onSelectFile">
+				<div class="fugue fugue-blue-document-excel-csv"></div> <span>Seleccionar un archivo</span>
+			</div>
+			<input on-change="onChangeFile" type="file" name="file-import" var="fileInput" accept=".csv">
+
+			<button on-click="import" class="btn btn-primary"><div class="fugue fugue-database-import"></div>Importar cartera</button>
+				
+		</div>
+	</div>
+
+
+</div>

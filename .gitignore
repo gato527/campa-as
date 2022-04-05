@@ -1,0 +1,15 @@
+# OSX
+.DS_Store
+
+# Thumbnails
+._*
+
+modules/.DS_Store
+back/config/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

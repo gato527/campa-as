@@ -1,0 +1,608 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"btn_l",
+				"btn_limpiar_abono"
+			],
+			[
+				"fro",
+				"for	for (…) {…}"
+			],
+			[
+				"var",
+				"vars_clase"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"se",
+				"select_company"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"deb",
+				"btn_debts_by_subsidiary"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"conten",
+				"content"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"campo_h",
+				"campo_HNR"
+			],
+			[
+				"es",
+				"else"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"fun",
+				"fun	Function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "modules/liquidacion/abono_manual/abono_manual.html",
+			"settings":
+			{
+				"buffer_size": 4053,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "modules/liquidacion/abono_manual/abono_manual.js",
+			"settings":
+			{
+				"buffer_size": 17366,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/redfolder_backend/webservices/abono_webservice.php",
+			"settings":
+			{
+				"buffer_size": 628,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/redfolder_backend/webservices/reports_webservice.php",
+			"settings":
+			{
+				"buffer_size": 1009,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/redfolder_backend/models/liquidation.php",
+			"settings":
+			{
+				"buffer_size": 316,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "modules/liquidacion/pagos/pagos.js",
+			"settings":
+			{
+				"buffer_size": 11599,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/redfolder",
+		"/C/wamp/www/redfolder/modules",
+		"/C/wamp/www/redfolder/modules/liquidacion",
+		"/C/wamp/www/redfolder/modules/liquidacion/abono_manual",
+		"/C/wamp/www/redfolder/modules/workspace/reports/debts_by_subsidiary",
+		"/C/wamp/www/redfolder_backend/webservices"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/redfolder/modules/workspace/reports/debts_by_subsidiary/debts_by_subsidiary.js",
+		"/C/wamp/www/redfolder/modules/workspace/crud/crud.html",
+		"/C/wamp/www/redfolder/modules/workspace/reports/debts_by_subsidiary/debts_by_subsidiary.html",
+		"/C/wamp/www/redfolder/modules/workspace/reports/reports.js",
+		"/C/wamp/www/redfolder/modules/workspace/reports/reports.html",
+		"/C/wamp/www/redfolder/modules/workspace/crud/crud.js",
+		"/C/wamp/www/redfolder_backend/webservices/reports_webservice.php",
+		"/C/wamp/www/redfolder/js/titan-framework-1.0.js",
+		"/C/wamp/www/redfolder_backend/core/Autoload.php",
+		"/C/wamp/www/redfolder_backend/lang/es-rol.php",
+		"/C/wamp/www/redfolder_backend/models/info_all_users_by_client.php",
+		"/C/wamp/www/redfolder_backend/lang/es-info_all_users_by_client.php",
+		"/C/wamp/www/redfolder_backend/core/Model.php",
+		"/C/wamp/www/redfolder_backend/webservices/crud_webservice.php",
+		"/C/wamp/www/redfolder_backend/reports",
+		"/C/wamp/www/redfolder/modules/workspace/admin/admin.js",
+		"/C/wamp/www/redfolder/modules/liquidacion/index/index.js",
+		"/C/wamp/www/redfolder/js/bluefolder.js",
+		"/C/wamp/www/redfolder/modules/workspace/reports/reports.css",
+		"/C/wamp/www/redfolder/modules/workspace/reports/debts_by_subsidiary/debts_by_subsidiary.css",
+		"/C/wamp/www/redfolder/modules/liquidacion/abono_manual/abono_manual.js",
+		"/C/wamp/www/redfolder/index.html",
+		"/C/wamp/www/redfolder_backend/models/reports/info_all_users_by_client.php",
+		"/C/wamp/www/redfolder/css/bluefolder.css",
+		"/C/wamp/www/redfolder/modules/workspace/admin/admin.css",
+		"/C/wamp/www/redfolder_backend/models/liquidation.php",
+		"/C/wamp/www/redfolder_backend/webservices/deuda_webservice.php",
+		"/C/wamp/www/redfolder_backend/core/Query.php",
+		"/C/wamp/www/redfolder/modules/liquidacion/abono_manual/abono_manual.html",
+		"/C/wamp/www/redfolder/modules/liquidacion/pagos/pagos.html",
+		"/C/wamp/www/redfolder/modules/liquidacion/pagos/pagos.js",
+		"/C/wamp/www/redfolder/modules/liquidacion/informacion_del_deudor/informacion_del_deudor.html",
+		"/C/wamp/www/redfolder_backend/models/payment.php",
+		"/C/wamp/www/redfolder_backend/models/payment_commitment.php",
+		"/C/wamp/www/redfolder_backend/lang/es-liquidation.php",
+		"/C/wamp/www/redfolder_backend/models/ticket.php",
+		"/C/wamp/www/redfolder_backend/models/image.php",
+		"/C/wamp/www/redfolder_backend/webservices/deudor_webservice.php",
+		"/C/wamp/www/redfolder_backend/models/debtor.php",
+		"/C/wamp/www/redfolder/modules/liquidacion/abono/abono.js",
+		"/C/wamp/www/redfolder/modules/liquidacion/abono/abono.html",
+		"/C/wamp/www/redfolder_backend/config/Database.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\redfolder"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"LimpiarAbono",
+			"data-export-types",
+			"this",
+			"guardarAbono",
+			"confirmacionAbono",
+			"btn_guardar",
+			"this.find",
+			"bootstrapTable",
+			"public $",
+			"rol",
+			"Rol",
+			"rol",
+			"value",
+			"$",
+			"contex",
+			"change",
+			"scope",
+			"$(this)",
+			";\n",
+			"unbind",
+			"click",
+			");\n",
+			"function",
+			"sql",
+			";\n",
+			"Titan.modules[this.view.capitalize()]",
+			"get",
+			"Titan.loader.show",
+			"capitalize",
+			"capital",
+			"loadhtml",
+			"\n",
+			"$",
+			">\n",
+			"!--",
+			"stru",
+			"\n",
+			"id",
+			"campo_TOTAL",
+			"debb",
+			"deb",
+			"calculate",
+			"this.",
+			"checkGastosChange",
+			"calculate",
+			"calculate_iva_IC",
+			"<input ",
+			"input",
+			"calculate",
+			"go_calculate",
+			"checkGastosChange",
+			"bootstrapTable",
+			"infoDebtstbodyManual",
+			"infoDebtsManual",
+			"'",
+			"Message",
+			"message",
+			"Message",
+			"webservice",
+			"web",
+			"fecha",
+			"Fecha",
+			"fecha",
+			"Fecha",
+			"fecha",
+			");\n",
+			"public $",
+			"payment_amount",
+			"guardarAbono",
+			"confirmacionAbono",
+			"calcularMinimo",
+			"recalculate",
+			"debt",
+			"struct",
+			"meses",
+			"readonly=\"readonly\"",
+			"abonos_manual_deuda",
+			"$(\"",
+			"$('#"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\wamp\\www\\redfolder"
+		},
+		{
+			"path": "C:\\wamp\\www\\redfolder_backend"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "modules/liquidacion/abono_manual/abono_manual.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3818,
+								3835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1337.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "modules/liquidacion/abono_manual/abono_manual.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5983,
+								5983
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2788.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/wamp/www/redfolder_backend/webservices/abono_webservice.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp/www/redfolder_backend/webservices/reports_webservice.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								987,
+								999
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/wamp/www/redfolder_backend/models/liquidation.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "modules/liquidacion/pagos/pagos.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11582,
+								11582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4920.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

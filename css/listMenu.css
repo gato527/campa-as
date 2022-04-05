@@ -1,0 +1,128 @@
+body{	background: #fff;}
+
+
+
+div.list-menu-container { border-bottom: 1px solid #E5E5E5;}
+
+
+
+div.list-menu-container:hover{
+
+	background: #D5D5D5;
+
+	cursor: pointer;
+
+}
+
+
+
+div.list-menu-container.active{
+
+	background: #E5E5E5;
+
+	cursor: pointer;
+
+	cursor: default;
+
+}
+
+
+
+div.list-menu-container > div.list-menu-container1, 
+
+div.list-menu-container > div.list-menu-container2,
+
+div.list-menu-container > div.list-menu-container3, 
+
+div.list-menu-container > div.list-menu-container4  { display: block; padding: 8px; }
+
+
+
+div.list-menu-container > div.list-menu-container1, 
+
+div.list-menu-container > div.list-menu-container4  { height: 20px; }
+
+div.list-menu-container > div.list-menu-container2, 
+
+div.list-menu-container > div.list-menu-container4  { height: 30px; }
+
+div.list-menu-container > div.list-menu-container3 { height: 25px; } 
+
+
+
+
+
+div.list-menu-container > div.list-menu-container1 > div.l1,
+
+div.list-menu-container > div.list-menu-container2 > div.l2,
+
+div.list-menu-container > div.list-menu-container3 > div.l3,
+
+div.list-menu-container > div.list-menu-container4 > div.l4 {float: left; margin-left: 8px;}
+
+
+
+div.list-menu-container > div.list-menu-container1 > div.r1,
+
+div.list-menu-container > div.list-menu-container2 > div.r2,
+
+div.list-menu-container > div.list-menu-container3 > div.r3,
+
+div.list-menu-container > div.list-menu-container4 > div.r4 { float: right; margin-right: 8px;}
+
+
+
+div.list-menu-container > div.list-menu-container1 > div.l1,
+
+div.list-menu-container > div.list-menu-container1 > div.r1,
+
+div.list-menu-container > div.list-menu-container4 > div.l4,
+
+div.list-menu-container > div.list-menu-container4 > div.r4,
+
+div.list-menu-container > div.list-menu-container3 > div.l3,
+
+div.list-menu-container > div.list-menu-container3 > div.r3 {
+
+	font-weight: 400;
+
+	font-size: 13px;
+
+	color: #838383;
+
+
+
+}
+
+
+
+div.list-menu-container > div.list-menu-container3 > div.l3,
+
+div.list-menu-container > div.list-menu-container3 > div.r3 {
+
+	/*font-weight: 600;*/
+
+	
+
+}
+
+div.list-menu-container > div.list-menu-container2 > div.l2,
+
+div.list-menu-container > div.list-menu-container2 > div.r2 {
+
+	/*font-weight: 600;*/
+
+	font-size: 13px;
+
+}
+
+
+
+div.list-menu-container > div.list-menu-container2 > div.l2 { color: #000; }
+
+div.list-menu-container > div.list-menu-container2 > div.r2 { color: #D03C69; }
+
+div.list-menu-container > div.list-menu-container4 > div.l4,
+
+div.list-menu-container > div.list-menu-container4 > div.r4{ color: #999395; }
+

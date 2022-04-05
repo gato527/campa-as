@@ -1,0 +1,1 @@
+ UPDATE client SET causal = REPLACE(REPLACE(causal, '\r', ''), '\n', '');

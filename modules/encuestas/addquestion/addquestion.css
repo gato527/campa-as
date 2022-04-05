@@ -1,0 +1,40 @@
+.page {
+	background: #FFF;
+	box-shadow:  0 2px 5px rgba(0,0,0,0.25);
+	min-height: 150px;
+	margin-bottom: 16px;
+    color: #888;
+    border-radius: 2px;
+    padding: 16px;
+}
+
+
+.page p {
+    color: #03A9F4;
+}
+
+.page img {
+    width: 100%;
+}
+.page .porcentage {
+	width: 60px;
+}
+
+.page button.btn {
+    min-width: 100px;
+}
+
+.page button.btn.btn-use {
+    position: absolute;
+    min-width: 60px;
+    width: 60px;
+    right: 20px;
+    top: 36px;
+    background: #fdfdfd;
+    color: #03A9F4;
+    border-color: #03A9F4;
+}
+
+.paddiing-16 {
+    padding: 16px;
+}

@@ -1,0 +1,11 @@
+.modal-body {
+	text-align: center;
+}
+
+.modal-body img {
+	margin: auto;
+}
+
+.modal-dialog {
+    width: 450px;
+}

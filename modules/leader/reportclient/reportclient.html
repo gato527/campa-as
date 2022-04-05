@@ -1,0 +1,38 @@
+
+	<!-- <button id="btn_generar" class="btn btn-default">Generar</button> -->
+
+	<div class="col-md-12" >
+		<form action="#" class="form-inline">
+			Ingrese el código del cliente
+			<input class="form-control" type="text"  var="clientCode" >
+			<button class="btn btn-success" on-click="dataReport">Buscar</button>
+
+			<br> 
+			<br> 
+			<label>Cantidad de llamadas registradas <span var="count"></span></label>
+			<br>
+			<label>Cantidad de intentos de llamados <span var="countIntent"></span></label>
+			<br> 
+			<br> 
+
+
+
+			<!-- <button class="btn btn-default" on-click="clearFilters">Limpiar filtros</button> -->
+			<button class="btn btn-success" on-click="fnExcelReport">Exportar</button>
+
+		</form>
+	</div>
+
+
+	<div class="table-responsive" var="tablaResponsive">
+			<br> 
+			<br> 
+
+		<table var="tableReport" data-sortable="false" data-heights="500"   ></table>
+	</div>
+
+
+	<a href="" id="dlink"></a>
+
+
+	<div var="wait" class="wait">Consultando la información... por favor espere esto puede tomar varios minutos.</div>

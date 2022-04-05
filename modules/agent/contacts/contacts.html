@@ -1,0 +1,57 @@
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+
+    <h3 class="panel-title  p-relative"><i class="material-icons">account_circle</i>
+      Contactos  <button on-click="openSave" var="addContact" class="btn btn-default btn-sm pull-rigth"><i class="material-icons">add</i>Agregar</button> </div></h3>
+
+<!--   <div class="panel-body">
+    <p class="explain-text">Aqui puedes consultar, agregar y clasificar los teléfonos de contacto de los clientes.</p>
+  </div> -->
+
+  <!-- List group -->
+  <div class="list-group" var="contactsList">
+  </div>
+
+
+</div>
+
+<div  var="modalContacts" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"> <i class="material-icons">account_circle</i>Agregar Contacto</h4>
+      </div>
+      <div class="modal-body">
+
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label  class="col-sm-2 control-label">Contacto</label>
+            <div class="col-sm-10">
+              <input var="contact" type="text" class="form-control" maxlength="20" placeholder="Ingrese el nombre completo">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Cargo</label>
+            <div class="col-sm-10">
+               <select var="observation"  class="form-control" >
+                  <option>Administrador</option>
+                  <option>Dueño</option>
+                  <option>Empleado</option>
+                  <option>Panadero</option>
+                  <option>Otro</option>
+              </select>
+            </div>
+          </div>
+          
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" on-click="saveContact" data-dismiss="modal">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>

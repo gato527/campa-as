@@ -1,0 +1,56 @@
+.container-box #box-info {
+	padding: 30px;
+}
+
+.container-box {
+	padding: 10px;
+}
+
+#table td {
+    white-space: pre-line;
+}
+
+#tablaResponsive {
+	width: 100%;
+}
+
+.dropdown-filter-dropdown {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+th {
+    position: relative;
+}
+
+span.glyphicon.glyphicon-arrow-down.dropdown-filter-icon {
+    border: 0;
+    font-size: 8px;
+        color: transparent;
+}
+
+.fixed-table-body {
+    height: 450px;
+}
+
+
+i.arrow-down {
+    margin-left: -4px;
+    margin-top: 26px;
+}
+
+.dropdown-filter-item {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.keep-open {
+    display: inline-block;
+}
+
+.arrow-down {
+    border-width: 0 1px 1px 0;
+    padding: 2px;
+}

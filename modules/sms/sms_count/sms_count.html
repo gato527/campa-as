@@ -1,0 +1,29 @@
+
+
+<div class="col-12">
+			<p>La gráfica representa cantidad de SMS enviados por los agentes en el mes. </p>
+	<br>
+
+
+	<form class="form-inline">
+	<div class="form-group">
+		<label for="date_init">Desde</label>
+		<input type="date" class="form-control" var="dateInit" >
+	</div>
+	<div class="form-group">
+		<label for="date_finish">Hasta</label>
+		<input type="date" class="form-control" var="dateEnd" >
+	</div>
+	<button type="submit" on-click="onGenerate" class="btn btn-default">Generar</button>
+</form>
+
+	<br>
+	<div class="card">
+		<div class="card-body">
+			<h3>Sms enviados: <span var="total"></span></h3>
+			<div id="chart-sms"></div>
+		</div>
+	</div>
+</div>
+
+

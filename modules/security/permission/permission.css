@@ -1,0 +1,21 @@
+.container-module-permission {
+	height: 100%;
+	overflow: auto;
+}
+
+div#roles {
+    padding: 16px 0;
+}
+
+div#roles select {
+    margin-right: 8px;
+}
+
+.checkbox.checkbox-success.all-permission {
+    margin-bottom: 16px;
+}
+
+.checkbox.checkbox-success {
+    margin-bottom: 8px;
+}
+

@@ -1,0 +1,121 @@
+<div class="col-md-3">
+
+  <div class="panel panel-default" var="containerDays">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <h3 class="panel-title">Seleccione los dias</h3>
+    </div>
+    <div class="panel-body">
+      <table class="table table-condensed table-striped">
+      <thead>
+          <tr><th>Días</th></tr>
+      </thead>
+      <tbody var="daysTable">
+        
+
+      </tbody>
+
+    </table>
+
+    </div>
+  </div>
+
+ <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <h3 class="panel-title">Seleccione los asesores</h3>
+    </div>
+    <div class="panel-body">
+      <table class="table table-condensed table-striped">
+      <thead>
+          <tr>
+            <th>Código</th>
+            <th>Nombre</th>
+          </tr>
+      </thead>
+      <tbody var="managersTable">
+        
+
+      </tbody>
+
+    </table>
+
+    </div>
+  </div>
+
+  <div class="btn btn-warning" on-click="distributeCalls" var="btnDistribute">Distribuir</div>
+
+<!-- result -->
+<div var="info">
+
+  <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <h3 class="panel-title">Información</h3>
+    </div>
+    <div class="panel-body alert-success">
+    
+      <h4>Las llamadas ya fueron asignadas para el día de hoy, sus asesores ya pueden empezar con el proceso.</h4>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+    
+
+<div class="col-md-4" var="containerCity">
+
+  <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <h3 class="panel-title">Llamadas para el día <span var="nameDay"></span></h3>
+    </div>
+    <div class="panel-body">
+      <table class="table table-condensed table-striped">
+    	<thead>
+        	<tr><th>Cantidad</th><th>Ciudad</th></tr>
+    	</thead>
+      <tbody var="citiesTable">
+        
+
+      </tbody>
+
+    </table>
+
+    </div>
+  </div>
+
+
+    
+</div>
+
+
+<!-- calls per manager -->
+<div class="col-md-4" var="result">
+
+  <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <h3 class="panel-title">Llamadas por asesor</h3>
+    </div>
+    <div class="panel-body">
+      <table class="table table-condensed table-striped">
+    	<thead>
+        	<tr><th>Cantidad</th><th>Ciudad</th></tr>
+    	</thead>
+      <tbody var="citiesTableResult">
+        
+
+      </tbody>
+
+    </table>
+
+    </div>
+  </div>
+</div>
+
+

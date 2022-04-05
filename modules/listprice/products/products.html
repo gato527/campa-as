@@ -1,0 +1,37 @@
+
+<div class="panel panel-default">
+<!-- Default panel contents -->
+<div class="panel-heading">
+  	
+  	<!-- search -->
+  	<form class="form-inline"  action="#">
+	  <div class="form-group">
+	    <div class="input-group">
+	      <input var="search" type="text" class="form-control" id="exampleInputAmount" placeholder="Buscar producto">
+	      <div class="input-group-addon"><i class="material-icons"> search </i></div>
+	    </div>
+	  </div>
+	</form>
+</div>
+
+<!-- products list -->
+<div class="list-group"  var="productsList">
+ 
+</div>
+
+</div>
+
+<div class="panel panel-default"  var="field">
+	<!-- Default panel contents -->
+	<div class="panel-heading p-relative">
+	  	<i class="material-icons"> shopping_cart </i> Pedido  - $<span var="priceTotal"></span>
+	  	<div class="btn btn-default create-order" on-click="saveOrder"><i class="material-icons"> save </i> Guardar</div>
+	</div>
+
+	<!-- products list -->
+	<div class="list-group"  var="productsOrder">
+
+	</div>
+
+</div>
+<div  var="productsModal"></div>

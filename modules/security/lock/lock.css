@@ -1,0 +1,106 @@
+.container-module-login {
+	background: #000;
+	background-image: url('img/backgroundlogin3.jpg');
+	background-size: 100%;
+	background-repeat: round;
+}
+
+
+.panel-login{
+    width: 320px;
+    background: #ffffff;
+    padding: 16px 24px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    height: 460px;
+    margin: 60px auto;
+}
+
+.panel-login img.img-responsive {
+    margin: 0 auto;
+}
+
+div#buttonLogin {
+    background-color: #4686b0;
+    color: #FFF;
+}
+
+@media (max-width: 600px) {
+  .panel-login{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		padding-top:50px;
+	}
+	.banner-login{
+		display: none;
+	}
+
+	.login-footer{
+		position: relative;
+	}
+}
+
+.container-module-login{
+	padding: 0;
+}
+
+.title {
+
+}
+.title-1 , .title-2 {
+	font-size: 36px;
+	float: left;
+	font-weight: 800;
+
+}
+
+.title-2 {
+	padding: 20px 2px ;
+	text-shadow: 1px 1px 3px #fff;
+}
+
+.title-1 {
+	color: white;
+	padding: 20px 2px ;
+	text-shadow: 1px 1px 3px #444;
+}
+
+.login-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.login-footer p {
+    margin: 0 0 10px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 8px 16px;
+}
+
+.login-footer a {
+	color: white;
+	cursor: pointer;
+}
+
+
+.user-logo {
+    text-align: center;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.user-logo img#img-perfil {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.user-logo p {
+    margin-top: 16px;
+}
+
+#other-user {
+	cursor: pointer;
+    color: #666;
+}

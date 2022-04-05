@@ -1,0 +1,21 @@
+BOGOTA
+
+
+
+
+
+
+
+
+ ☐ Bogota
+ ☐ Cajica
+ ☐ chia
+ ☐ Funsa
+ ☐ Soacha
+ ☐ Sibate
+
+
+ UPDATE `client` SET `state`='NO EFECTIVO',  `causal`="CLIENTE BLOQUEADO SISTEMA",  WHERE city on ('BOGOTA', 'CAJICA','CHIA','FUNZA','SIBATE','SOACHA')
+
+ UPDATE `client` SET `state`='NO EFECTIVO', `causal`="CLIENTE BLOQUEADO SISTEMA" WHERE city in ('BOGOTA', 'CAJICA','CHIA','FUNZA','SIBATE','SOACHA')
+Filas encontradas: 777

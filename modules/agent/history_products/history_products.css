@@ -1,0 +1,21 @@
+.panel {
+	height: calc(50% - 24px);
+}
+
+div#productsList {
+    height: calc(100% - 60px);
+    overflow: auto;
+}
+
+div#listOrder {
+    height: calc(100% - 60px);
+    overflow: auto;
+}
+
+h4.quantity {
+    float: left;
+    margin: 8px;
+    font-size: 24px;
+    margin-right: 30px;
+    font-weight: 900;
+}

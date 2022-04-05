@@ -1,0 +1,60 @@
+
+  <!-- PROPIETARIO -->
+  <div class="col-md-12 subtitle">
+
+        <form class="form-inline"  action="#">
+          <p>Selecciona la fecha </p>
+        <div class="form-group">
+            <input var="ordersDate" type="date" class="form-control" placeholder="Buscar cliente">
+        </div>
+
+
+        <div class="form-group">
+            <div class="btn btn-success" on-click="refresh"> Consultar <i class="material-icons"> search </i></div> 
+        </div>
+      </form>
+      <br>
+      Filtros
+      <form class="form-inline"  action="#">
+        <div class="btn btn-success" on-click="filterAll"> Ver todos</div> 
+        <div class="btn btn-success" on-click="filterOnlyErrors"> Solo Pedidos con novedades</div> 
+      </form>
+
+
+      <div class="alert alert-danger" role="alert" var="containerErrors">
+        <h4 class="alert-heading">Atención!</h4>
+        <p>Algunos de los pedidos no se han logrado procesar correctamente en Harinera del Valle consulta los mensajes de información del por qué en cada uno de los pedidos</p>
+        <hr>
+        <p class="mb-0">Total de pedidos con novedades. <span var="numErrors"></span> </p>
+
+        <div var="containerLinks">
+          
+        </div>
+      </div>
+
+
+      <br>
+      <p>La frecuencia de sincronización de los pedidos es cada 15 minutos, si la información no esta actualizada debes consultar nuevamente en 20 minutos, si un pedido tarda mas de 30 minutos en cargar al SAP se debe reportar al área de sistemas.</p>
+
+      <br>
+     
+      
+      <div var="viewMessage"></div>
+  </div>
+
+
+
+  <div class="col-md-12" >
+    <div var="list">
+      
+      
+
+    </div>
+  </div>
+
+
+
+
+
+
+

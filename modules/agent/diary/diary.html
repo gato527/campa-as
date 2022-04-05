@@ -1,0 +1,63 @@
+
+  <!-- PROPIETARIO -->
+  <div class="col-md-12 subtitle">
+      <h3>Listado de llamadas por realizar 
+
+        <form class="form-inline"  action="#">
+        <div class="form-group">
+          <div class="input-group">
+            <input var="search" type="text" class="form-control" placeholder="Buscar cliente">
+            <div class="input-group-addon"><i class="material-icons"> search </i></div>
+          </div>
+        </div>
+      </form>
+
+      </h3>
+      <div class="col-md-6">
+        <h4>Total <span var="total"></span></h4>
+        <h4>Efectivos <span var="efectivos"></span></h4>
+      </div>
+
+     
+      <div class="col-md-6">
+        <h3>Listado de llamadas Pendientes</h3>
+        <form class="form-inline"  action="#">
+          <div class="form-group">
+            <div class="input-group">
+              <input var="searchPending" type="text" class="form-control" placeholder="Buscar Pendientes">
+              <div class="input-group-addon"><i class="material-icons"> search </i></div>
+            </div>
+          </div>
+        </form>    
+      </div>
+      
+      <div var="viewMessage"></div>
+  </div>
+
+
+
+  <div class="clock-container">
+    <span var="nameUser"></span>
+    <span var="clock"></span>
+    <br>
+    <span var="seconds"></span>s
+    <i class="material-icons">alarm</i>
+
+  </div>
+
+  <!--  clients list -->
+  <div class="col-md-5 " var="listClients" ></div>
+
+  <div class="col-md-5 col-md-offset-1" >
+    <h3><i class="material-icons">alarm</i>Alarmas</h3>
+    <div var="listReminders"></div>
+    
+  </div>
+
+
+  <div var="operationsContainer" ></div>
+
+
+
+
+

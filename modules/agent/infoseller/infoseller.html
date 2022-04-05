@@ -1,0 +1,63 @@
+<div class="panel panel-default" var="field">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="material-icons">account_circle</i>Información de la visita</h3>
+  </div>
+
+    <div>
+      <p var="dateLastCall"></p>
+      <p var="userLastCall"></p>
+    </div>
+
+    <table class="table table-condensed table-striped">
+      <tbody>
+        <!-- name -->
+        <tr><td>¿Es visitado por el vendedor?<br><small var="isVisitSmall"></small></td><td var="isVisit">
+            <div class="btn-group" role="group" var="buttons" >
+              <button on-click="onChangeIsVisit" class="btn btn-secondary" data-value="SI">Si</button>
+              <button on-click="onChangeIsVisit" class="btn btn-secondary" data-value="NO">No</button>
+            </div>
+        </td></tr>
+        <tr><td>Fecha última visita <br><small var="dateVisitSmall"></small></td><td >
+            <input  class="form-control"  type="date" on-change="onChangeDate">
+        </td></tr>
+        <!-- estado -->
+        <tr>
+          <td>Motivo de la visita<br><small var="typeVisitSmall"></small></td><td>
+            <select class="form-control" on-change="onChangeType">
+                <option></option>
+                <option>Asesoria </option>
+                <option>Toma de pedido</option>
+                <option>Entrega de pedido</option>
+                <option>Cambio de productos</option>
+            </select>  
+          </td>
+        </tr>
+        <tr><td>Fecha entrega último pedido<br><small var="dateOrderSmall"></small></td><td >
+            <input  class="form-control"  type="date" on-change="onChangeDateOrder">
+        </td></tr>
+
+      </tbody>
+
+    </table>
+</div>
+
+    <br>
+<div class="panel panel-default" var="field">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="material-icons">account_circle</i>Pregunta semanal</h3>
+  </div>
+
+  <div class="panel-body panel-poll">
+
+    <h4 var="pollTitle"></h4>
+
+    <div var="pollContainer"></div>
+
+  </div>
+   
+
+</div>
+
+

@@ -1,0 +1,41 @@
+#addContact {
+    float: right;
+    top: -5px;
+    position: relative;
+}
+
+span.badge {
+    top: -38px;
+    position: relative;
+}
+
+.btn-group.list-right {
+    position: absolute;
+    top: 14px;
+    right: 70px;
+}
+
+.list-group-item .material-icons {
+	font-size: 18px;
+}
+
+
+button.btn.btn-default.active.success {
+    background-color: #4CAF50;
+    color: #FFF;
+}
+
+button.btn.btn-default.active.info {
+    background-color: #03A9F4;
+    color: #FFF;
+}
+
+button.btn.btn-default.active.warning {
+    background-color: #FFC107;
+    color: #FFF;
+}
+
+button.btn.btn-default.active.danger {
+    background-color: #E91E63;
+    color: #FFF;
+}

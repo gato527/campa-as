@@ -1,0 +1,42 @@
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: none;
+}
+
+#name {
+	font-size: 16px;
+}
+
+input#nickname {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FF5722;
+    text-transform: uppercase;
+}
+
+.time_pick {
+  display: inline;
+}
+
+.time_pick > .timepicker_wrap {
+    width: 98px;
+    padding: 4px;
+}
+
+.time, .mins, .meridian {
+    margin: 0;
+    font-size: 16px;
+    width: 44px;
+}
+
+input.timepicki-input {
+    width: calc(100% - 8px);
+}
+
+.prev, .next {
+    width: calc(100% - 8px);
+}
+
+
+input.timepicker {
+    width: 80px;
+}

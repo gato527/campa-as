@@ -1,0 +1,104 @@
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="material-icons">account_circle</i>Información del cliente</h3>
+  </div>
+
+
+
+    <table class="table table-condensed table-striped">
+      <tbody>
+        <!-- name -->
+        <tr><td>Nombre</td><td var="name"></td></tr>
+        <!-- estado -->
+        <tr>
+          <td>Estado</td><td>
+            <select class="form-control" on-change="onChangeState" var="state">
+                <option value="">Por favor seleccione una opción</option>
+                <option value="EFECTIVO">EFECTIVO</option>
+                <option value="NO EFECTIVO">NO EFECTIVO</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr><td>Tipo de Negocio</td><td>
+            <select class="form-control" on-change="onChangeType" var="typeBussiness">
+                <option>--</option>
+                <option>Asadero</option>
+                <option>Autoservicio</option>
+                <option>Avícola</option>
+                <option>Cafe</option>
+                <option>Cafetería</option>
+                <option>Cigarrería</option>
+                <option>Comidas Rápidas</option>
+                <option>Distribuidora</option>
+                <option>Granero</option>
+                <option>Heladería</option>
+                <option>Minimercado</option>
+                <option>Negocio independiente</option>                
+                <option>Panaderia</option>
+                <option>Panificadora</option>
+                <option>Pastelería</option>                
+                <option>Pizzería</option>
+                <option>Quesera</option>
+                <option>Repostería</option>                
+                <option>Restaurante</option>
+                <option>Salsamentaria</option>
+                <option>Tienda</option>
+                <option>Víveres</option>
+            </select>
+        </td></tr>
+
+        <tr><td>Persona de contacto</td><td><input  class="form-control" var="nickname" type="text" on-change="onChangeNickname"></input></td></tr>
+        <tr><td>Ciudad</td><td var="city"></td></tr>
+        <tr><td>Dirección</td><td var="address"></td></tr>
+        <tr><td>Barrio</td><td var="neighborhood"></td></tr>
+        <tr><td>Nombre del Negocio</td><td var="businessName"></td></tr>
+        <tr><td>NIT</td><td var="nit"></td></tr>
+        <tr><td>Día de llamada</td><td>
+            <select class="form-control" on-change="onChangeDay" var="dayCall">
+                <option>LUNES</option>
+                <option>MARTES</option>
+                <option>MIERCOLES</option>
+                <option>JUEVES</option>
+                <option>VIERNES</option>
+                <option>SABADO</option>
+                <option>DOMINGO</option>
+            </select>
+        </td></tr>
+        <tr><td>Día de visita</td><td >
+            <select class="form-control" on-change="onChangeDayVisit" var="dayVisit">
+                <option>LUNES</option>
+                <option>MARTES</option>
+                <option>MIERCOLES</option>
+                <option>JUEVES</option>
+                <option>VIERNES</option>
+                <option>SABADO</option>
+                <option>DOMINGO</option>
+            </select>
+        </td></tr>
+        <tr><td>Código de cliente</td><td var="clientCode"></td></tr>
+        <tr><td>Rango en la mañana</td><td><input id='startTimeMorning' var='startTimeMorning' type='text' class='timepicker'/> <input id='endTimeMorning' var='endTimeMorning' type='text' class='timepicker'/> <b>AM</b></td></tr>
+        <tr><td>Rango en la tarde</td><td><input id='startTimeafternoon' var='startTimeafternoon' type='text' class='timepicker'/> <input id='endTimeafternoon' var='endTimeafternoon' type='text' class='timepicker'/> <b>PM</b></td></tr>
+      </tbody>
+
+    </table>
+
+</div>
+
+
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="material-icons">account_circle</i>Información del Vendedor</h3>
+  </div>
+
+    <table class="table table-condensed table-striped">
+      <tbody>
+        <tr><td>Código</td><td var="sellerCode"></td></tr>
+        <tr><td>Nombre</td><td var="sellerName"></td></tr>
+        <tr><td>Celular</td><td var="sellerPhone"></td></tr>
+      </tbody>
+    </table>
+
+</div>

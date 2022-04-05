@@ -1,0 +1,72 @@
+<div id="crud-container-{{id}}" class="col-md-12 crud-main-container box">
+    <div id="modal-crud-{{id}}" class="form-container">
+        <div class="col-md-10 col-md-offset-1">
+
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form"  action="#"></form>
+            </div>
+            <div class="modal-footer">
+                <button id="cancel" type="button" class="btn-cancel  btn btn-default">Cancelar</button>
+                <button id="save" type="button" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+
+        <div class="col-md-1"></div>
+        
+    </div>
+
+    <!--  botones del opciones crud -->
+    <div id="options-crud-{{id}}" class="btn-group options-crud"></div>
+
+    <!-- tabla del crud -->
+    <div class="crud-body">
+
+        <div class="table-responsive">
+            <table id="table-crud" class="table table-striped" data-toggle="table" data-toolbar="#options-crud-{{id}}" data-show-columns="true" data-click-to-select="true" data-height="450" data-search="true" data-export-types="['excel']">
+
+                <thead>
+                    <tr>
+                        <th data-field="state" data-checkbox="true"></th>
+                    </tr>
+                </thead>
+
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- footer del crud paginator -->
+    <div class="crud-footer">
+        <div id="paginator" class="form-inline">
+            <label id="total"></label>
+
+            <button id="first-page" class="btn btn-default"><div class='fugue fugue-blue-document-page'></div> Primera</button>
+            <button id="back-page" class="btn btn-default"><div class='fugue fugue-blue-document-page-previous'></div> Anterior</button>
+            <button id="next-page" class="btn btn-default"><div class='fugue fugue-blue-document-page-next'></div> Siguiente</button>
+            <button id="last-page" class="btn btn-default"><div class='fugue fugue-blue-document-page-last'></div> Última</button> Página número <input id="input-page" type="text" class="form-control" value="1"> de <span id="num-pages"></span>
+
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade modal-foraing" id="modal-crud-foreing-{{id}}" tabindex="-1" role="dialog" aria-labelledby="modal-crud" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cancelar</span></button>
+                    <h4 class="modal-title" id="title-foreing-{{id}}">Selecione:</h4>
+                </div>
+                <div class="modal-body" id="body-foreing-{{id}}">
+                </div>
+                <div class="modal-footer">
+                    <button id="btn-cancel-foraing-{{id}}" type="button" class="btn-cancel  btn btn-default">Cancelar</button>
+                    <button id="btn-select-foraing-{{id}}" type="button" class="btn btn-primary">Seleccionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

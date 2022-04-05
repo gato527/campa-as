@@ -1,0 +1,59 @@
+<div class="col-md-12">
+
+	<div class="box box-warning">
+		<div class="box-body">
+			<div var="btnFile" class="btn btn-default btn-file" on-click="onSelectFile">
+				<div class="fugue fugue-blue-document-excel-csv"></div> <span>Seleccionar un archivo</span>
+			</div>
+			<input on-change="onChangeFile" type="file" name="file-import" var="fileInput" accept=".csv">
+
+			<button on-click="import" class="btn btn-primary"><div class="fugue fugue-database-import"></div>Importar cartera</button>
+				
+		</div>
+	</div>
+
+
+	<div class="box result">
+		<div class="box-body">
+		   	<!-- tabla del import -->
+		   	<div class="crud-import">
+		    
+			    <div class="table-responsive">
+			      	<table 
+				      	id="table-import"
+				      	data-toolbar="#options-import" 
+				      	class="table table-striped"
+				      	data-show-columns="true" 
+				      	data-height="370"
+				      	data-search="true"
+				      	data-row-style="rowStyle"
+				      	data-export-types="['excel']"
+				    >
+				      	<thead>
+					      	<tr>
+
+					  		<th data-halign="center" data-field="COD_VENDEDOR" data-sortable="true">COD_VENDEDOR</th>
+					  		<th data-halign="center" data-field="COD_CLIENTE" data-sortable="true">COD_CLIENTE</th>
+					  		<th data-halign="center" data-field="NIT" data-sortable="true">NIT</th>
+					  		<th data-halign="center" data-field="NOMBRE_CLIENTE" data-sortable="true">NOMBRE_CLIENTE</th>
+					  		<th data-halign="center" data-field="NOMBRE_DE_NEGOCIO" data-sortable="true">NOMBRE_DE_NEGOCIO</th>
+					  		<th data-halign="center" data-field="TELEFONO" data-sortable="true">TELEFONO</th>
+					  		<th data-halign="center" data-field="DIRECCION" data-sortable="true">DIRECCION</th>
+					  		<th data-halign="center" data-field="CIUDAD" data-sortable="true">CIUDAD</th>
+					  		<th data-halign="center" data-field="BARRIO" data-sortable="true">BARRIO</th>
+					  		<th data-halign="center" data-field="DIA_VISITA" data-sortable="true">DIA_VISITA</th>
+					  		<th data-halign="center" data-field="DIA_LLAMADA" data-sortable="true">DIA_LLAMADA</th>
+					  		<th data-halign="center" data-field="ESTADO" data-sortable="true">ESTADO</th>
+					  		<th data-halign="center" data-field="CAUSAL" data-sortable="true">CAUSAL</th>
+
+					      	
+					      	</tr>
+				      	</thead>
+				      	<tbody></tbody>
+				    </table>
+			  	</div>
+			</div>
+
+	  	</div>
+	</div>
+</div>

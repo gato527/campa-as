@@ -1,0 +1,232 @@
+
+.form-container {
+    position: absolute;
+    background: #FFF;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    overflow: auto;
+    display: none;
+}
+
+.crud-main-container .modal-body .table-responsive{
+	height: 350px;
+	overflow: auto;
+}
+
+.crud-main-container .table-responsive{
+	height: 100%;
+
+	overflow: auto;
+}
+
+.crud-main-container .table-responsive .checkbox, .radio {
+   margin: 0;
+}
+
+
+.columns.columns-right.btn-group.pull-right {
+    margin-right: 12px;
+}
+
+.crud-main-container .table-responsive .checkbox input[type="checkbox"]{
+    position: absolute;
+    top: 0;
+    background: red;
+    left: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.crud-main-container .table-responsive .checkbox  label:before {
+    border-radius: 0;
+}
+
+.crud-main-container .table-responsive .checkbox  label:after {
+       left: -1px;
+}
+
+
+.crud-main-container .table-responsive input#btSelectAll {
+    position: absolute;
+    top: 4px;
+    background: red;
+    left: 10px;
+    height: 16px;
+    width: 16px;
+}
+
+.crud-main-container .table-responsive .btSelectAll label:after {
+       top: -4px;
+}
+
+
+
+
+
+
+
+.crud-main-container #myModal .modal-body{
+	height: 400px;
+	overflow: auto;
+}
+
+.crud-main-container #myModaldelete .modal-body{
+	height: 60px;
+	overflow: auto;
+}
+
+.crud-main-container .table-responsive #th-acciones{
+	min-width: 100px;
+}
+
+
+.crud-main-container .keep-open {
+	display: inline-block;
+} 
+.crud-main-container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #F9F9F9;
+    overflow: hidden;
+}
+
+.crud-main-container .crud-body {
+	height: calc(100% - 50px);
+	overflow: auto;
+	position: relative;
+}
+
+
+.crud-main-container .fugue {
+    margin-right: 8px;
+    top: 2px;
+    position: relative;
+}
+
+.modal-header, .modal-footer {
+        padding: 2px 16px;
+}
+
+.modal-footer {
+	padding: 6px 16px;
+   
+}
+
+.modal-header {
+    color: #000;
+}
+.crud-main-container .modal-body{
+	max-height: calc(100% - 80px);
+	overflow: auto;
+}
+
+.crud-main-container .crud-footer {
+	height: 46px;
+}
+
+.crud-main-container .crud-footer .pagination {
+	margin: 4px 0 4px 0;
+}
+
+div#paginator {
+	padding: 6px;
+}
+
+div#paginator input#input-page {
+    max-width: 76px;
+    text-align: right;
+}
+
+.btn-default {
+    height: 34px;
+    border: 0;
+}
+
+.btn-default:hover {
+}
+
+.input-group-btn .btn-default {
+}
+
+.fixed-table-container {
+    border: 1px solid #ddd;
+    border-radius: 0;
+	margin: 0 12px;
+}
+
+
+
+
+.modal-foraing .modal-body {
+	max-height: 480px;
+	height: 480px;
+	overflow: auto;
+	padding: 0;
+}
+
+
+.modal-foraing .modal-body .bootstrap-table {
+    height: 100%;
+}
+
+
+.modal-body .crud-main-container .modal-body {
+	max-height: 400px;
+	height: 400px;
+	overflow: auto;
+}
+
+
+.options-crud {
+	/*padding: 10px;*/
+}
+
+.table-striped>tbody>tr>td {
+
+	border-top: 1px solid #f9f9f9;
+}
+
+
+.dni-copy {
+    cursor: pointer;
+}
+
+.dni-copy:hover {
+    padding: 0 8px;
+    background: #ddd;
+    border-radius: 14px;
+}
+
+.col-md-7.col-md-offset-4.error {
+    color: red;
+}
+
+.has-error .form-control {
+    border-width: 2px;
+    border-color: red;
+}
+
+.foreing .form-control[disabled], 
+.foreing .form-control[readonly], 
+.foreing fieldset[disabled] .form-control {
+    background-color: #FFF;
+}
+
+
+.modal-foraing .modal-body .btn-default {
+    height: 34px;
+    width: 34px;
+    padding: 6px 10px;
+    overflow: hidden;
+}
+
+.modal-foraing .columns.btn-group.pull-right {
+    display: none;
+}
+
+.modal-foraing .pull-right.search {
+    margin-right: 12px;
+}

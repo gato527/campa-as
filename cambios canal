@@ -1,0 +1,62 @@
+- Clientes como de productos, ya no se cargan al sistema sino que se traen automaticamente
+
+- Informacion de los clientes, tener informacion actualizada de los clientes
+
+- Precios de los productos, precio mas actualizado y de acorde con los descuentos que se ofrecieron al cliente
+
+- Tocar la imagen, verificar y evitar confusiones a la hora de realizar el pedido
+
+- Tocar el producto, agregar el producto al pedido
+
+- Pedidos y la sincronizacion- en la noche se sincronizarán esta información
+
+- Celuweb
+
+
+Recomendaciones:
+
+- Cuando se registre el pedido de un asesor que esta en la lista que no le aparezca al asesor
+
+
+- Traer el historial del ultimo pedido
+- Tendriamos la opcion 
+
+
+- extraer la información
+- Revisar los pedidos si fueron cargados a SAP
+
+- adelanto de ruta para el dia viernes y sabado
+
+- Validar con jaime
+
+- Validar el pedido actual del vendedor
+
+- Sincronizar el log de los productos y clientes
+
+- Sincronizar la información ver el  log de los pedidos 
+
+- Vendedores si ya cargaron pedidos
+
+
+
+
+La experiencia eficiente apariencia
+- funcionalidad.
+
+
+
+Analitica de datos para ver que productos o servicios son los más importantes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

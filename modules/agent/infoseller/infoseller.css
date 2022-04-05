@@ -1,0 +1,63 @@
+.previous {
+  height: 400px;
+  margin-top: 16px;
+  overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.observation {
+	margin-bottom: 6px;
+	padding: 0px 16px;
+}
+
+.observation-date {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #4871b1;
+}
+
+.observation .photo {
+	font-size: 32px;
+}
+
+.observation-name {
+	font-size: 12px;
+}
+
+.observation-date-ago {
+    color: #757575;
+}
+
+.bubble {
+    padding: 8px 16px;
+    border: 1px solid #E8EAF6;
+    border-radius: 4px;
+    position: relative;
+    border-top-left-radius: 0;
+    background: #E8EAF6;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.bubble:before {
+	content: '';
+    position: absolute;
+    top: -1px;
+    left: -17px;
+    border: 8px solid;
+    border-color: #E8EAF6 #E8EAF6 transparent transparent;
+    height: 1px;
+    width: 1px;
+}
+
+p#dateLastCall {
+    padding: 4px 10px;
+}
+p#userLastCall {
+    padding: 4px 10px;
+}
+
+.panel-poll {
+    padding: 16px;
+}

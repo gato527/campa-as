@@ -1,0 +1,10 @@
+#chart-sms {
+	height: 400px;
+}
+
+span#total {
+    background: #d22127;
+    padding: 0px 16px 4px;
+    color: #fff;
+    border-radius: 4px;
+}

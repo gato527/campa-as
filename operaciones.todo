@@ -1,0 +1,177 @@
+
+
+
+mysql > SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));:
+
+
+
+
+ ☐ actualizar las causales - tipo de llamada
+ ☐ actualizar estado - efectivo y no efectivo
+
+
+ ESTADO  CAUSAL
+ EFECTIVO  PEDIDO
+   PEDIDO PQR
+   CALIDAD
+   PQR
+   VOLVER A LLAMAR
+   PEDIDO CON VENDEDOR
+   OTROS
+   COMPRA OTRA MARCA
+ NO EFECTIVO  NO CONTESTA
+   NUMERO EQUIVOCADO
+   NUMERO ERRADO
+
+ ☐ asociar el estado nuevamente
+
+ ☐ cuantos intententos de contacto tiene en el dia
+ ☐ agendamiento de llamada
+
+
+
+ ☐ pedido debe subir automaticamente con santaclara
+
+   ☐ Código de cliente
+   ☐ Nombre del preferido persona de contacto
+   
+   ☐ 
+
+   ☐ descargar la gestion diaria
+
+
+
+observaciones
+
+
+git config credential.helper store
+
+
+
+ ☐ casos entrantes de llamadas 
+
+ ☐ clientes o consumidores
+    ☐  cedula busca el cliente, busca el consumidor 
+
+
+
+Harinera:
+
+   precios:
+   ☐ Se maneja 3 precios para harinera asociar las ciudades
+   
+   Lider:
+   ☐ leader widget - cuantas llamadas se estan haciendo en el dia por asesor 
+   ☐ Causales para saber los no efectivos
+   ☐ activar y desactivar los clientes para poder sacar los ilocalizados o los que no hacen pedidos
+   ☐ Sobre los efectivos que ciudades les falta por tocar ( cuantas ciudades  )
+   ☐ Informe de gestión diaria cuantas llamadas tienen y cuantas le faltan y que causales
+   ☐ Leader - validar los clientes cons las siguientes causales ( pqr., no contesta, numero equivocado, vendio negocio, compra otra marca )
+   ☐ Leader - botob agregar una gui para que pueda revisar la informacion de los clientes
+      - se envia al supervisor los del dia sabado 
+   ☐ Leader adicionar un producto al pedido o cancelar un pedido
+   ☐ talbero de tareas para (crear actividades y frecuencia)
+         ☐ televentas distribucion de clientes harinera
+         ☐ semanal chequeo de precios (martes y miercoles)
+         ☐ encuestas de satisfacion (asesorias a la linea amiga)
+         ☐ apoyo televentas
+         ☐ validacion campañas
+         ☐ envio de detalles y resvistas hv
+
+   PQR:
+   ☐ agregar un listado de pqr  para validar
+         - listarlo por supervisores y cargar la información del supervisor
+   
+   Reprtes:
+   ☐ Reporte para sacar los no efectivos (no contesta, pqr, numero errado, numero equivocado )
+   ☐ Reporte de clientes que vendio negocio
+   ☐ Reportes de clientes de compra otra marca
+   ☐ Reporte de PQR ( enviar a los supervisores al correo cadaregistro debe ir separado por supervisor )
+   ☐ Reporte de clientes con pedido (  )
+   ☐ Reporte pedido realizados por el mes por supervisor ( por ciudad )
+   ☐ agregar un correo para agregar copia a todos los reportes enviados
+   
+   Agenda:
+   ☐ cliente duplicado
+   ☐ razones sociales asociadas - relacionados
+   ☐ diario - poner boton Revisar por lider ( agregar una observacion )
+   ☐ solo (pedido - pedido pqr - volver a llamar ) los otras no deberian salir en la gestion diaria
+   ✔  agregar el nombre del vendedor @done (18-09-21 15:17)
+   ✔ validar si hay un plugin @done (18-09-21 15:17)
+
+
+
+
+   eror:
+      ✔ a dos agentes les seta cargando el mismo cliente buscar una forma de cargar los clientes en cola de clientes @done (18-09-21 11:37)
+         - se debe al realizar la reparticion de las llamadas ingresar ala plataforma
+
+
+
+ Santa clara: 
+    ☐ autoventa saber cuando 
+    ☐ Agregar causal actualizacion de informacion
+
+
+
+    ☐ clientes llamar cada 15 dias frecuencia de llamadas
+    ☐ clientes repetidos
+
+    ☐ cambio de informacion reporte de cambio de información
+       ☐ para enviar a santaclara la información 
+
+
+
+cuentas de cobro:
+   pendiente enviar las de julian
+   ☐ 3 quincenas 
+
+
+   pendientes de pago:
+      ☐ 3 meses X 600.000 de carmelita
+      ☐ 1' 000. 000 de  quincena julian
+
+
+      ☐ 1 X 800.000 de sercodex
+
+
+  ☐ Registrar preguntas
+    - Respuestas abiertas
+    - Pregunta de la semana
+    ☐ pregunta obligatoria
+    ☐ no contesta
+
+ ☐ al finalizar la gestion
+
+ ☐ geolocalizacion marcar clientes
+
+
+ ☐ los dos sistemas
+
+
+
+ ☐ Agendados mostar el porcentaje de avance
+ ☐ ayer yanet esta asignada pero no aparece en la operacion
+
+
+ ☐ traer los productos con iva y sin iva
+
+
+ ☐ Adicion precios pedidos - informe ventas del dia
+ ☐ poder eliminar pedidos futuros
+
+
+ telin - database
+
+ ☐ Bogota
+ ☐ Soacha
+ ☐ Sibate
+ ☐ Funsa
+ ☐ Cajica
+ ☐ chia
+
+ No efectivos
+
+
+
+

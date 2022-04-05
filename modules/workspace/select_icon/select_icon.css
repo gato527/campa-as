@@ -1,0 +1,19 @@
+.content-icons {
+	    overflow: auto;
+    height: calc(100% - 75px);
+}
+
+.content-icons .item {
+    padding: 8px 16px;
+    list-style: none;
+    cursor: pointer;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.content-icons .item:hover {
+	background-color:  #FFC107;
+}

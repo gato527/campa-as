@@ -1,0 +1,134 @@
+
+
+
+<nav class="navbar ">
+  <div class="container-fluid">
+   <form class="navbar-form navbar-left" role="search" action="#">
+    <div class="form-group">
+      <select var="typeOperation" class="form-control"  on-change="onChangeOperation">
+        <option>-Seleccione tipo de llamada-</option>
+
+        <option>AGENDADO</option>
+
+        <option>PEDIDO</option>
+        <option>PEDIDO PQR</option>
+        <option>CALIDAD</option>
+        <option>PQR</option>
+        <option>VOLVER A LLAMAR</option>
+        <option>PEDIDO CON VENDEDOR</option>
+        <option>OTROS</option>
+        <option>COMPRA OTRA MARCA</option>
+        <option>NO CONTESTA</option>
+        <option>NO HACE PEDIDO</option>
+        <option>VENDIO NEGOCIO</option>
+
+        <option>NUMERO EQUIVOCADO</option>
+        <option>NUMERO ERRADO</option>
+
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <select var="typeOperationPQR" class="form-control" >
+        <option>-Seleccione tipo de pqr-</option>
+
+        <option>Actualizar numero</option>
+        <option>Precio</option>
+        <option>Documentación</option>
+        <option>Entrega</option>
+        <option>Visita</option>
+
+      </select>
+    </div>
+
+    <div class="form-group">
+      <select var="typeOperationBuyAnotherBrand" class="form-control" >
+        <option>-Seleccione el motivo-</option>
+        <option>Calidad</option>
+        <option>Precio</option>
+        <option>Entrega</option>
+        <option>Visita</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <select var="typeOperationDoesNotOrder" class="form-control" >
+        <option>-Seleccione el motivo-</option>
+        <option>Compra a distribuidor</option>
+        <option>Compra a competencia</option>
+        <option>Compra directo al vendedor</option>
+      </select>
+    </div>
+
+    <button on-click="finishSession" class="btn btn-warning">Finalizar</button>
+    <!-- <button on-click="cancelSession" class="btn btn-danger">Cancelar</button> -->
+  </form>
+  </div>
+</nav>
+
+
+  <!-- first column -->
+  <div class="col-md-4">
+    <div var="infoClient">
+    </div>
+
+    <div var="phones">
+    </div>
+
+    <div var="postpone">
+    </div>
+  </div>
+
+  <!-- second column -->
+  <div class="col-md-8">
+
+
+
+      <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#observations-{{identifier}}" aria-controls="observations-{{identifier}}" role="tab" data-toggle="tab">Observaciones</a></li>
+          <li role="presentation"><a href="#orders-{{identifier}}" aria-controls="orders-{{identifier}}" role="tab" data-toggle="tab">Pedidos</a></li>
+          <li role="presentation"><a href="#sms-{{identifier}}" aria-controls="orders-{{identifier}}" role="tab" data-toggle="tab">SMS</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" var="observations-{{identifier}}">
+
+            <div class="row">
+              <div class="col-md-6">
+            		<div var="observations"></div>
+              </div>
+
+              <div class="col-md-6">
+                <div var="infoseller"></div>
+              </div>
+            </div>
+
+          </div>
+          <div role="tabpanel" class="tab-pane" var="orders-{{identifier}}">
+
+             <div class="row">
+              <div class="col-md-6">
+                <div var="orders"></div>
+              </div>
+
+              <div class="col-md-6">
+                  <div var="history"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div role="tabpanel" class="tab-pane" var="sms-{{identifier}}">
+              <div var="smsContainer"></div>
+          </div>
+        </div>
+
+      </div>
+
+
+  </div>

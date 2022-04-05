@@ -1,0 +1,75 @@
+#login {
+
+	color: #fff;
+
+}
+
+
+
+#login h1{
+
+	color: #000;
+
+}
+
+
+
+.container-module-login{
+
+	padding-top: 100px;
+
+	padding-bottom: 80px;
+
+	background: url('/bluefolder/img/backgroundlogin.jpg');
+
+	background-size: 100% 100%;
+
+}
+
+
+
+#login .form-login{
+
+	background: url('/bluefolder/img/login.jpg');
+
+	background-size: 100% 100%;
+
+	padding-top: 150px;
+
+	box-shadow: 2px 2px 15px #444;
+
+	margin-bottom: 20px;
+
+}
+
+#login .form-login img {
+
+	margin-bottom: 10px;
+
+}
+
+
+
+#login p a{
+
+	color: #888;
+
+}
+
+
+
+.bydowesoft{ padding: 40px}
+
+.bydowesoft img {
+
+	position: absolute;
+
+	bottom: 10px;
+
+	left: 0px;
+
+	width: 61%;
+
+
+
+}

@@ -1,0 +1,23 @@
+<div class="container-box">
+	<h4>Reporte de caja</h4>
+	<form class="form-inline"  action="#">
+		<div class="form-group">
+			<label for="date_init">Desde</label>
+			<input type="date" class="form-control" id="date_init" >
+		</div>
+		<div class="form-group">
+			<label for="date_finish">Hasta</label>
+			<input type="date" class="form-control" id="date_finish" >
+		</div>
+		<button id="btn_generar" class="btn btn-default">Generar</button>
+	</form>
+
+	<ul id="box-info"  class="nav nav-pills nav-stacked"></ul>
+
+	<div id="box-details">
+		<h4>Detalle</h4>
+	</div>
+	<table id="table_report"  data-toolbar="#box-details"  data-show-export="true"  data-export-types="['excel']">
+
+	</table>
+</div>
